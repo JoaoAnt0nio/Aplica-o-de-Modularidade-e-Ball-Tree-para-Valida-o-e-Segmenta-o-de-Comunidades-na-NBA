@@ -46,7 +46,7 @@ Para executar o algoritmo, deve-se utilizar os seguintes comandos no terminal (e
 #### Passo 1
 
 ```
-git clone [https://github.com/JoaoAnt0nio/Aplica-o-de-Modularidade-e-Ball-Tree-para-Valida-o-e-Segmenta-o-de-Comunidades-na-NBA.git](https://github.com/JoaoAnt0nio/Aplica-o-de-Modularidade-e-Ball-Tree-para-Valida-o-e-Segmenta-o-de-Comunidades-na-NBA.git) nba-analytics
+git clone 'https://github.com/JoaoAnt0nio/Aplica-o-de-Modularidade-e-Ball-Tree-para-Valida-o-e-Segmenta-o-de-Comunidades-na-NBA.git' nba-analytics
 ```
 
 #### Passo 2
@@ -58,8 +58,15 @@ cd nba-analytics
 #### Passo 3
 
 ```
-python main.py
+cd AlgoritmoFinal
+```
+
+### Passo 4
+
+```
+python3 main.py
 ``` 
+Após isso, todas as entradas inseridas e as saídas do algoritmo estarão salvas na pasta 'AlgoritmoFinal' dentro de 'nba-analytics'
 
 ### Autores
 
