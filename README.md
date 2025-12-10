@@ -39,6 +39,28 @@ Para conseguir executar o algoritmo, a instalação das bibliotecas deve ser fei
 pip install pandas networkx scikit-learn matplotlib numpy
 ```
 
+### Como Executar o Algoritmo
+
+Para executar o algoritmo, deve-se utilizar os seguintes comandos no terminal (em ordem!)
+
+#### Passo 1
+
+```
+git clone [https://github.com/JoaoAnt0nio/Aplica-o-de-Modularidade-e-Ball-Tree-para-Valida-o-e-Segmenta-o-de-Comunidades-na-NBA.git](https://github.com/JoaoAnt0nio/Aplica-o-de-Modularidade-e-Ball-Tree-para-Valida-o-e-Segmenta-o-de-Comunidades-na-NBA.git) nba-analytics
+```
+
+#### Passo 2
+
+```
+cd nba-analytics
+```
+
+#### Passo 3
+
+```
+python main.py
+``` 
+
 ### Autores
 
 Humberto Henrique Lima Cunha - graduando em engenharia de computação pelo [CEFET-MG](https://www.cefetmg.br/).
