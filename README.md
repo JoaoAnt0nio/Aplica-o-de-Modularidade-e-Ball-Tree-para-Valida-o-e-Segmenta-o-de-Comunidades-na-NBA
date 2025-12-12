@@ -39,7 +39,27 @@ Para conseguir executar o algoritmo, a instalação das bibliotecas deve ser fei
 pip install pandas networkx scikit-learn matplotlib numpy
 ```
 
-### Como Executar o Algoritmo
+## Aquisição da Base de Dados (Web Scraping) e Filtragem
+
+**Nota Importante**: Esta etapa serve apenas para documentar a metodologia de extração dos dados, a [Base de Dados Processada (.csv)](./AlgoritmoFinal/filtered_per_36_stats.csv) já está incluída na pasta AlgoritmoFinal. Você não precisa executar este script para rodar o projeto principal.
+
+O repositório conta com um módulo dedicado à extração automática de dados atualizados diretamente do Fonte dos dados brutos: [NBA Stuffer](https://www.nbastuffer.com/2024-2025-nba-player-stats/). O script realiza a leitura, filtragem e normalização dos dados.
+
+Localização: Pasta [DataSet](./DataSet)
+
+O que o script faz:
+
+- Acessa os dados da temporada 2024-2025.
+
+- Seleciona apenas a Tabela da Temporada Regular.
+
+- Filtra jogadores com GP >= 41 e MPG >= 20.
+
+- Normaliza todas as estatísticas para Per 36 Minutes.
+
+- Gera o arquivo filtered_per_36_stats.csv.
+
+## Como Executar o Algoritmo
 
 Para executar o algoritmo, deve-se utilizar os seguintes comandos no terminal (em ordem!)
 
