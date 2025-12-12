@@ -36,7 +36,7 @@ from networkx.algorithms.community import greedy_modularity_communities
 Para conseguir executar o algoritmo, a instalação das bibliotecas deve ser feita utilizando pip install no terminal do sistema operacional:
 
 ```
-pip install pandas networkx scikit-learn matplotlib numpy
+pip install pandas networkx scikit-learn matplotlib numpy lxml
 ```
 
 ## Aquisição da Base de Dados (Web Scraping) e Filtragem
