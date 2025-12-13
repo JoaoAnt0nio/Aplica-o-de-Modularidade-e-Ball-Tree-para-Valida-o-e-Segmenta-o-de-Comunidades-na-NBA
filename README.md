@@ -69,6 +69,11 @@ Para executar o algoritmo, deve-se utilizar os seguintes comandos no terminal (e
 git clone 'https://github.com/JoaoAnt0nio/Aplica-o-de-Modularidade-e-Ball-Tree-para-Valida-o-e-Segmenta-o-de-Comunidades-na-NBA.git' nba-analytics
 ```
 
+ou 
+
+```
+git clone git@github.com:JoaoAnt0nio/Aplica-o-de-Modularidade-e-Ball-Tree-para-Valida-o-e-Segmenta-o-de-Comunidades-na-NBA.git nba-analytics
+```
 #### Passo 2
 
 ```
